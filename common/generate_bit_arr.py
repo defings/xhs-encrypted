@@ -88,7 +88,7 @@ def generate_xs_bit_arr(path: str, body_data: str, load_ts: int, a1: str,
     return arr
 
 
-def reverse_xs_bit_arr(arr: [int]):
+def reverse_xs_bit_arr(arr: list[int]):
     """
     反向解析xs字节数组
     :param arr:
