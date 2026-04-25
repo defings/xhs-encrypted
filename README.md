@@ -13,6 +13,14 @@ ProfileData等多种加密参数的解析和生成算法。
 | **mns0201.py** | mns0201自定义加密/解密算法 |
 | **mns0301.py** | mns0301自定义加密/解密算法 |
 
+### x-rap-param 加密算法实现
+
+| 文件名                                 | 功能描述              |
+|-------------------------------------|-------------------|
+| **decode_x_rap_param.py**           | x-rap-param解码入口   |
+| **x_rap_param.py**                  | x-rap-param加密入口   |
+| **generate_x_rap_param_payload.py** | x-rap-param核心负载生成 |
+
 ### 工具函数
 
 | 文件名          | 功能描述                                    |
